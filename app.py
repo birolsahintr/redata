@@ -21,7 +21,7 @@ if "messages" not in st.session_state:
 
     # --- ÖNEMLİ: SENİN PROMPTUN BURADA DEVREYE GİRİYOR ---
     # AI Studio'daki "System Instruction" kısmını buraya ekliyoruz.
-    system_instruction = "Sen, bulut tabanlı (Cloud-Native) bir "Gayrimenkul Portföy ve Talep Yönetim Platformu"nun ana yönetim modülüsün." 
+    system_instruction = "Sen, bulut tabanlı (Cloud-Native) bir Gayrimenkul Portföy ve Talep Yönetim Platformu nun ana yönetim modülüsün." 
     # Yukarıdaki tırnak içini kendi projenle değiştir!
     
     st.session_state.messages.append({"role": "user", "parts": [system_instruction]})
